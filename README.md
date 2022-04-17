@@ -1,6 +1,9 @@
 # plotly_deployment, Module 12 Challenge
 
-Produces a mobile-responsive dashboard (Bars, Bubble and Gauge charts) to visualize data using JavaScript, Plotly, and D3.js. 
+
+This creates a mobile-responsive dashboard (Bars, Bubble and Gauge charts) to visualize 10 bacterial species from the volunteer's belly buttons using JavaScript, Plotly, and D3.js.
+
+NOTE: the background photo is from "www.pixabay.com".
 
 
 ## Deliverable 1
@@ -9,7 +12,7 @@ Code to create the arrays when a sample is selected from the dropdown menu:
 
 ![11](Images/11.png)
 
-Code to create the trace object in the "buildCharts()" function, containing the following:
+The code to create the trace object in the "buildCharts()" function contains the following:
 
 * "y" values are the otu_ids, in descending order
 * "x" values are the sample_values, in descending order
@@ -17,7 +20,7 @@ Code to create the trace object in the "buildCharts()" function, containing the 
 
 ![12](Images/12.png)
 
-Code to create the layout array in the "buildCharts()" function that creates a title for the chart.
+The layout array code in the "buildCharts()" function creates a title for the chart.
 
 ![13](Images/13.png)
 
@@ -32,7 +35,7 @@ When the dashboard is first opened in a browser, ID 940’s data is displayed, a
 
 ## Deliverable 2
 
-Code for the trace object in the "buildCharts()"; the function does the following:
+The code for the trace object in the "buildCharts()" does the following:
 
 * Sets the otu_ids as the x-axis values
 * Sets the sample_values as the y-axis values
@@ -42,7 +45,7 @@ Code for the trace object in the "buildCharts()"; the function does the followin
 
 ![21](Images/21.png)
 
-Code for the layout in the "buildCharts()"; the function does the following:
+The layout code in the "buildCharts()" does the following:
 
 * Creates a title
 * Creates a label for the x-axis
@@ -50,9 +53,13 @@ Code for the layout in the "buildCharts()"; the function does the following:
 
 ![22](Images/22.png)
 
-When the dashboard is first opened in a browser, ID 940’s data should be displayed in the dashboard. All three charts should also be working according to their requirements when a sample is selected from the dropdown menu (10 pt)
+When the dashboard is first opened in a browser, ID 940’s data is displayed. All three charts work according to their requirements when a sample is selected from the dropdown menu.
 
 ![23](Images/23.png)
+
+All three charts work according to their requirements when a sample is selected from the dropdown menu. Sample 1242's data is shown hereafter.
+
+![24](Images/24.png)
 
 
 ## Deliverable 3
@@ -64,22 +71,33 @@ The code to build the gauge chart does the following:
 * Adds the washing frequency value on the gauge chart
 * The indicator shows the level for the washing frequency on the gauge
 * The gauge is added to the dashboard
-* The gauge fits in the margin of the <div> element
+* The gauge fits in the margin of the "div" element
 
 ![31](Images/31.png)
 
-When the webpage loads, the bar and bubble chart are working according to the requirements in Deliverable 1 and 2, respectively, and the gauge chart is working according to the requirements listed for this Deliverable (10 pt)
+When the webpage loads, the bar and bubble chart are working according to the requirements in Deliverable 1 and 2, respectively, and the gauge chart is working according to the requirements listed for this Deliverable.
 
 ![32](Images/32.png)
 
 
 ## Deliverable 4
 
-You will earn a perfect score for Deliverable 4 by completing all requirements below:
-The webpage has three customizations. (10 pt)
+* Customization 1: increased the bar chart's width (from 5 to 6), and reduce the gauge chart (from 5 to 4) to improve the overal presentation
 
 ![41](Images/41.png)
 
-When the dashboard is first opened in a browser, ID 940’s data should be displayed in the dashboard, and all three charts should be working according to the requirements when a sample is selected from the dropdown menu (5 pt)
+* Customization 2: enclosed all the charts in a box, used a new class called "boxed"
 
 ![42](Images/42.png)
+
+* Customization 3: added a background photo to "jumbotron"; changed the font color to white for better contrast and increased the size of the second sentence inside the paragraph "p"
+
+![43](Images/43.png)
+
+When the dashboard is first opened in a browser, ID 940’s data is displayed.
+
+![44](Images/44.png)
+
+All three charts are working according to the requirements when a sample is selected from the dropdown menu. Sample 1601's data is shown hereafter.
+
+![45](Images/45.png)
